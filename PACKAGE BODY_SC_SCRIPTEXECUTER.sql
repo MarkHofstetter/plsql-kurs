@@ -1,0 +1,5 @@
+ORA-31600: Ungültiger Eingabewert PACKAGE BODY für Parameter OBJECT_TYPE in Funktion GET_DDL
+ORA-06512: in "SYS.DBMS_METADATA", Zeile 3773
+ORA-06512: in "SYS.DBMS_METADATA", Zeile 3828
+ORA-06512: in "SYS.DBMS_METADATA", Zeile 5678
+ORA-06512: in Zeile 1

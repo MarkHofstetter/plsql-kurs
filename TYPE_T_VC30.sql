@@ -1,0 +1,5 @@
+
+  CREATE OR REPLACE TYPE "HR"."T_VC30" 
+AS TABLE OF varchar2(30);
+
+ 

@@ -1,0 +1,5 @@
+
+  CREATE OR REPLACE TYPE "HR"."TYP_ADRESSE" 
+AS VARRAY(3) OF varchar2(30);
+
+ 

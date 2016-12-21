@@ -1,0 +1,5 @@
+ORA-31603: Objekt "T_EMPS_LAST_NAME" vom Typ TABLE  in Schema "HR" nicht gefunden
+ORA-06512: in "SYS.DBMS_SYS_ERROR", Zeile 105
+ORA-06512: in "SYS.DBMS_METADATA", Zeile 3912
+ORA-06512: in "SYS.DBMS_METADATA", Zeile 5678
+ORA-06512: in Zeile 1

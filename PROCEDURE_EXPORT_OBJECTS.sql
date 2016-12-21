@@ -16,16 +16,15 @@ oder
 */
   for r in (select object_name,
                        object_type
-                  from user_objects where status = 'VALID') 
+                  from user_objects where status = 'VALID' and
+                  object_type = 'PROCEDURE') 
                   loop
   
   v_filehandle := utl_file.fopen('DATA_DIR', 
     r.object_type||'_'||r.object_name||'.sql', 'w');
   
   begin 
-    select SYS.dbms_metadata.get_ddl( r.object_type, r.object_name) 
-      into v_ddl
-      from dual;  
+  v_ddl := SYS.dbms_metadata.get_ddl( r.object_type, r.object_name);
   exception
     when others then
       v_ddl := SQLERRM;
